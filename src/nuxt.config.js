@@ -12,12 +12,12 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: "Hans Felix | Software Developer",
+    title: "Min-Chi Chiang | Software Developer",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "I am an experienced software developer based in Peru, specializing in building exceptional websites." },
-      { hid: "og:title", name: "og:title", content: "Hans Felix | Software Developer" },
+      { hid: "og:title", name: "og:title", content: "Min-Chi Chiang | Software Developer" },
       { hid: "og:url", name: "og:url", content: "https://hansfelix.github.io/" },
       { hid: "og:description", name: "og:description", content: "I am an experienced software developer based in Peru, specializing in building exceptional websites." },
       { hid: "og:image", name: "og:image", content: "/view.PNG" },
