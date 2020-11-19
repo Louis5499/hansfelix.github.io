@@ -1,7 +1,8 @@
 const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
 
 export const state = () => ({
-    isDarkMode: isDarkMode
+    // isDarkMode: isDarkMode
+    isDarkMode: false
 })
 
 export const getters = {

@@ -1,5 +1,6 @@
 module.exports = {
-  mode: "spa",
+  ssr: false,
+  // mode: "spa",
   // srcDir: 'src',
   generate: {
     dir: "dist"
@@ -104,9 +105,6 @@ module.exports = {
       useCookie: true,
       cookieKey: "i18n_redirected"
     }
-  },
-  googleAnalytics: {
-    id: 'UA-168575030-1',
   },
   vue: {
     config: {

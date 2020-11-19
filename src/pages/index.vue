@@ -2,29 +2,37 @@
   <div class="container">
     <div class="main-text">
       <div class="main-text__overline">{{ $t("index.overline") }}</div>
-      <h1 class="main-text__title">Hans Felix</h1>
-      <div class="main-text__description">{{ $t("index.desciption") }}</div>
+      <h1 class="main-text__title">Min-Chi Chiang</h1>
+      <div style="margin-bottom: 20px" class="main-text__description">louisby0123 [at] gmail.com</div>
+      <div class="main-text__description" v-html="$t('index.desciption')"></div>
     </div>
 
     <div class="about-me" id="element">
       <div class="about-me__text">
         <h2 class="about-me__title">{{ $t("index.aboutMe") }}</h2>
         <div v-html="$t('index.aboutMeText')"></div>
-
+        <p class="biography-highlight">Interests</p>
         <section class="about-me__tech">
-          <div>JavaScript</div>
-          <div>HTML & (S)CSS</div>
-          <div>Vue</div>
-          <div>Node.js</div>
-          <div>C#</div>
-          <div>WordPress</div>
+          <div>Parallel Computing / Distributed Computing</div>
+          <div>Cloud Computing / System Networking</div>
+          <div>DevOps</div>
+        </section>
+        <p style="margin-top: 15px" class="biography-highlight">Education</p>
+        <section class="about-me__tech">
+          <div>National Tsing Hua University (NTHU)</div>
+          <div>B.S. in Computer Science, 2021</div>
+          <div>Overall GPA: 3.91 / 4.30</div>
+          <div>CS Major GPA: 4.00 / 4.30</div>
         </section>
       </div>
       <div class="about-me__photo">
-        <img src="/images/hans-felix.jpg" alt="Hans Felix" />
+        <img src="/images/min_chi_compress.png" alt="Hans Felix" />
       </div>
     </div>
 
+    <TedYoutube />
+    <PublicationSector />
+    <WorkExperience />
     <IndexContact />
 
     <div class="background">
@@ -54,10 +62,16 @@
 
 <script>
 import IndexContact from "@/components/index/IndexContact";
+import TedYoutube from "@/components/index/TedYoutube";
+import PublicationSector from "@/components/index/PublicationSector";
+import WorkExperience from "@/components/index/WorkExperience";
 
 export default {
   components: {
-    IndexContact
+    IndexContact,
+    TedYoutube,
+    PublicationSector,
+    WorkExperience
   }
 };
 </script>
@@ -106,6 +120,15 @@ export default {
   display: grid;
   grid-template-columns: 60% 40%;
 
+  .biography-highlight {
+    font-weight: 600;
+  }
+
+  .about-me__tech {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__photo {
     align-self: center;
     justify-self: end;
@@ -113,7 +136,7 @@ export default {
     img {
       max-width: 250px;
       border-radius: 50%;
-      filter: grayscale(1);
+      // filter: grayscale(1);
       opacity: 0.75;
       transition: 0.2s all ease-in-out;
     }

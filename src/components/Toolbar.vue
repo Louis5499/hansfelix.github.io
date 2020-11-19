@@ -14,6 +14,8 @@
     <div class="toolbar__content" :class="{ 'toolbar__content--active': isContentVisible }">
       <div class="toolbar__nav">
         <a class="toolbar__link" href="#" v-scroll-to="'#element'">{{ $t("links.aboutMe") }}</a>
+        <a class="toolbar__link" href="#" v-scroll-to="'#publication-sector'">Publication</a>
+        <a class="toolbar__link" href="#" v-scroll-to="'#workexperience-sector'">Work Experience</a>
         <!-- <nuxt-link class="toolbar__link" :to="localePath('works')">{{ $t("links.work") }}</nuxt-link> -->
         <a class="toolbar__link" href="#" v-scroll-to="'#contact'">{{ $t("links.contact") }}</a>
       </div>

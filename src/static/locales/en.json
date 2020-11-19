@@ -1,6 +1,6 @@
 {
   "links": {
-    "aboutMe": "About me",
+    "aboutMe": "Biography",
     "work": "Work",
     "contact" : "Contacto"
   },
@@ -9,8 +9,8 @@
   },
   "index": {
     "overline": "Hi! My name is",
-    "desciption": "I am an experienced software developer based in Peru, specializing in building exceptional websites. Occasionally designing. Passionate about combining beautiful code with beautiful design.",
-    "aboutMe": "About me",
-    "aboutMeText": "<p> Hi! My name is Hans Felix software developer based in Peru. </p><p> My goal is to create websites that help companies achieve their business goals, taking care of design and user experience.</p><p> These years I have been helping construction companies to digitize their processes developing web applications. </p><p>Here are a few technologies I've been working with recently: </p>"
+    "desciption": "<p>CS B.S. Student at NTHU</p><p>System Architect & Backend Tech Leader at 9dynamics</p><p>President of 7th Mei-Chu Hackathon</p>",
+    "aboutMe": "Biography",
+    "aboutMeText": "<p> Hi! I'm the senior student at NTHU CS. </p><p> During my undergraduate studies, I worked with Prof. Jerry Chou at Nation Tsing Hua University at LSA-Lab</p><p> These years I also participated in start-ups industries, giloo and 9dynamics, as a system architect and tech-leader, and my priority is to employ microservice architecture with Kubernetes to construct reliable and flexible service. </p>"
   }
 }
