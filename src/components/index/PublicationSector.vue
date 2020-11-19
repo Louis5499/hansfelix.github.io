@@ -27,7 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 .publication-sector {
-  margin: 100px 0 0 0;
+  padding: 100px 0 0 0;
   .section-header {
     color: #6495b5;
     font-size: 2em;

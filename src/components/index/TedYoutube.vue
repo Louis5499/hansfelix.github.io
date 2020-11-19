@@ -28,6 +28,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     p {
       font-size: 1.4em;
       margin: 10px 0;

@@ -2,10 +2,11 @@
   <section class="workexperience-sector" id="workexperience-sector">
     <h3 class="section-header">Work Experience</h3>
     <div v-for="(work, idx) in workExperiences" class="section-block" :key="idx">
+      <a v-if="work.logoImage" :href="work.logoSrc"><img :src="work.logoImage" width="70px"/></a>
       <h4 class="publication-header">{{work.companyName}}</h4>
       <h4 class="publication-author">{{work.title}}</h4>
       <h4 class="publication-author">{{work.years}}</h4>
-      <p class="publication-paragraph">{{work.implementation}}</p>
+      <p v-for="(specificItem, itemIdx) in work.implementation" class="publication-paragraph" :key="itemIdx">{{'-  ' + specificItem}}</p>
     </div>
   </section>
 </template>
@@ -17,15 +18,24 @@ export default {
       workExperiences: [
         {
           companyName: 'giloo',
+          logoImage: '/images/giloo-logo.png',
+          logoSrc: 'https://giloo.ist/',
           title: 'System Architect & SRE',
           years: '2017/07 - 2020/08',
-          implementation: 'Supervised 34234'
+          implementation: [
+            'Designed and Implemented Multi-Provider Payment System, Authentication Service, Real-time Streaming Service',
+            'Reached 99.99 % availability by reconstructing system from monolithic system to microservice with Kubernetes'
+          ]
         },
         {
           companyName: '9dynamics',
+          logoImage: '/images/9d-logo.png',
           title: 'Backend Tech Leader',
           years: '2020/08 - Present',
-          implementation: 'Supervised 34234'
+          implementation: [
+            'Supervised system design and DevOps integration of E-Commerce, Game, Social Apps projects',
+            'Integrated Scrum with our DevOps process from scratch to manage well projects and coordinate team members'
+          ]
         }
       ]
     }
@@ -35,13 +45,14 @@ export default {
 
 <style lang="scss" scoped>
 .workexperience-sector {
-  margin: 100px 0 0 0;
+  padding: 100px 0 0 0;
   .section-header {
     color: #6495b5;
     font-size: 2em;
     margin-bottom: 15px;
   }
   .section-block {
+    margin: 50px 0;
     .publication-header {
       font-size: 1.2em;
     }
@@ -55,7 +66,7 @@ export default {
       font-weight: 600;
     }
     .publication-paragraph {
-      margin: 20px 0;
+      margin: 10px 0;
     }
   }
 }

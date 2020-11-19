@@ -20,14 +20,14 @@
         <a class="toolbar__link" href="#" v-scroll-to="'#contact'">{{ $t("links.contact") }}</a>
       </div>
 
-      <div class="toolbar__actions">
+      <!-- <div class="toolbar__actions">
         <div class="toolbar__dark_mode">
           <SwitchDarkMode />
         </div>
         <div class="toolbar__language">
           <DropdownLanguage />
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
