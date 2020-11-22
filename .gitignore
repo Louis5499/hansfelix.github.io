@@ -90,4 +90,3 @@ sw.*
 *.swp
 
 yarn.lock
-_nuxt
