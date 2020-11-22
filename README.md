@@ -5,6 +5,10 @@
 ![view](https://github.com/hansfelix/hansfelix.github.io/raw/master/src/static/images/view.PNG)
 
 ## Build Setup
+This website style is borrowed from [hansfelix](https://github.com/hansfelix/hansfelix.github.io), please refer to his github page to get more specific information.
+
+
+## Build Setup
 
 ```bash
 # install dependencies
