@@ -14,7 +14,7 @@
     <div class="block-header">
       <a href="https://www.facebook.com/hackathontaiwanjunior"><img style="border-radius: 50%" src="/images/hackathon-tw-junior-logo.png" width="70px"/></a>
       <div class="block-words">
-        <h3 class="section-subheader" style="color: #404040;">1st Hackathon Taiwan Junior</h3>
+        <h3 class="section-subheader" style="color: #404040;">Hackathon Taiwan Junior</h3>
         <h3 class="section-subheader">Founder & President</h3>
       </div>
     </div>

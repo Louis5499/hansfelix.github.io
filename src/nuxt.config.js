@@ -16,10 +16,10 @@ module.exports = {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "I am an experienced software developer based in Peru, specializing in building exceptional websites." },
+      { hid: "description", name: "description", content: "I am an experienced system architect based in Taiwan, specializing in cloud computing(Kubernetes)." },
       { hid: "og:title", name: "og:title", content: "Min-Chi Chiang | Software Developer" },
-      { hid: "og:url", name: "og:url", content: "https://hansfelix.github.io/" },
-      { hid: "og:description", name: "og:description", content: "I am an experienced software developer based in Peru, specializing in building exceptional websites." },
+      { hid: "og:url", name: "og:url", content: "https://louis5499.github.io/" },
+      { hid: "og:description", name: "og:description", content: "I am an experienced system architect based in Taiwan, specializing in cloud computing(Kubernetes)." },
       { hid: "og:image", name: "og:image", content: "/view.PNG" },
       { hid: "og:type", name: "og:type", content: "website" },
       { hid: "og:locale", name: "og:locale", content: "en_US" },
