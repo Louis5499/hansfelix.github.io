@@ -13,8 +13,9 @@
         <div v-html="$t('index.aboutMeText')"></div>
         <p class="biography-highlight">Interests</p>
         <section class="about-me__tech">
-          <div>Parallel Computing / Distributed Computing</div>
           <div>Cloud Computing / System Networking</div>
+          <div>Parallel Computing / Distributed Computing</div>
+          <div>MLSys</div>
           <div>DevOps</div>
         </section>
         <p style="margin-top: 15px" class="biography-highlight">Education</p>
@@ -23,6 +24,7 @@
           <div>B.S. in Computer Science, 2021</div>
           <div>Overall GPA: 3.91 / 4.30</div>
           <div>CS Major GPA: 4.00 / 4.30</div>
+          <div class="special-label"><b>NTHU CS Outstanding Academic Achievement Award</b></div>
         </section>
       </div>
       <div class="about-me__photo">
@@ -33,6 +35,7 @@
     <TedYoutube />
     <PublicationSector />
     <WorkExperience />
+    <ExtraCurricular />
     <IndexContact />
 
     <div class="background">
@@ -55,7 +58,7 @@
     </div>
 
     <footer class="footer">
-      &copy; Hans Felix
+      This is an academic website for Min-Chi Chiang to share his experiences, projects, publications. The style of this website is borrowed from &copy; Hans Felix.
     </footer>
   </div>
 </template>
@@ -65,13 +68,15 @@ import IndexContact from "@/components/index/IndexContact";
 import TedYoutube from "@/components/index/TedYoutube";
 import PublicationSector from "@/components/index/PublicationSector";
 import WorkExperience from "@/components/index/WorkExperience";
+import ExtraCurricular from "@/components/index/ExtraCurricular";
 
 export default {
   components: {
     IndexContact,
     TedYoutube,
     PublicationSector,
-    WorkExperience
+    WorkExperience,
+    ExtraCurricular
   }
 };
 </script>
@@ -178,6 +183,9 @@ export default {
     div:before {
       content: "-";
       margin-right: 5px;
+    }
+    .special-label:before {
+      content: "";
     }
 
     @include mq($until: tablet) {

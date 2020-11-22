@@ -9,7 +9,7 @@
       <div class="publication-link">
         <span>[pdf]</span>
         <span>[slides]</span>
-        <span>[poster]</span>
+        <span>[<a href="/files/publication_poster.pdf">poster</a>]</span>
       </div>
     </div>
   </section>
