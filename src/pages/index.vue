@@ -36,6 +36,7 @@
     <PublicationSector />
     <WorkExperience />
     <ExtraCurricular />
+    <SelectedProjects />
     <IndexContact />
 
     <div class="background">
@@ -43,17 +44,20 @@
     </div>
 
     <div class="social">
-      <a class="social__item" href="https://www.linkedin.com/in/hans-felix/" target="_blank">
+      <a class="social__item" href="https://www.linkedin.com/in/mencher-min-chi-chiang-846414187/" target="_blank">
         <h-icon name="linkedin" width="20" height="20"></h-icon>
       </a>
-      <a class="social__item" href="https://twitter.com/hansfelixramos" target="_blank">
+      <!-- <a class="social__item" href="https://twitter.com/hansfelixramos" target="_blank">
         <h-icon name="twitter" width="20" height="20"></h-icon>
-      </a>
-      <a class="social__item" href="https://stackoverflow.com/users/9176232/hans-felix-ramos?tab=profile" target="_blank">
+      </a> -->
+      <!-- <a class="social__item" href="https://stackoverflow.com/users/9176232/hans-felix-ramos?tab=profile" target="_blank">
         <h-icon name="stackoverflow" width="20" height="20"> </h-icon>
-      </a>
-      <a class="social__item" href="https://github.com/hansfelix" target="_blank">
+      </a> -->
+      <a class="social__item" href="https://github.com/Louis5499" target="_blank">
         <h-icon name="github" width="20" height="20"> </h-icon>
+      </a>
+      <a class="social__item" href="https://medium.com/mencher-publication" target="_blank">
+        <h-icon name="medium" width="20" height="20"> </h-icon>
       </a>
     </div>
 
@@ -69,6 +73,7 @@ import TedYoutube from "@/components/index/TedYoutube";
 import PublicationSector from "@/components/index/PublicationSector";
 import WorkExperience from "@/components/index/WorkExperience";
 import ExtraCurricular from "@/components/index/ExtraCurricular";
+import SelectedProjects from "@/components/index/SelectedProjects";
 
 export default {
   components: {
@@ -76,7 +81,8 @@ export default {
     TedYoutube,
     PublicationSector,
     WorkExperience,
-    ExtraCurricular
+    ExtraCurricular,
+    SelectedProjects
   }
 };
 </script>
