@@ -17,8 +17,9 @@
         <a class="toolbar__link" href="#" v-scroll-to="'#publication-sector'">Publication</a>
         <a class="toolbar__link" href="#" v-scroll-to="'#workexperience-sector'">Work Experience</a>
         <a class="toolbar__link" href="#" v-scroll-to="'#extra-curricular'">Extracurricular Activity</a>
+        <a class="toolbar__link" href="#" v-scroll-to="'#selected-project'">Selected Project</a>
         <!-- <nuxt-link class="toolbar__link" :to="localePath('works')">{{ $t("links.work") }}</nuxt-link> -->
-        <a class="toolbar__link" href="#" v-scroll-to="'#contact'">{{ $t("links.contact") }}</a>
+        <!-- <a class="toolbar__link" href="#" v-scroll-to="'#contact'">{{ $t("links.contact") }}</a> -->
       </div>
 
       <!-- <div class="toolbar__actions">

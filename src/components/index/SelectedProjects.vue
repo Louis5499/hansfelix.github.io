@@ -1,6 +1,21 @@
 <template>
   <section class="selected-project" id="selected-project">
     <h3 class="section-header">Selected Projects</h3>
+    <h3 class="section-subheader">Companies' Projects</h3>
+    <div v-for="(item, idx) in companiesList" class="section-block" :key="idx">
+      <h4 class="publication-header">{{item.header}}</h4>
+      <h4 class="publication-author">{{item.place}}</h4>
+      <h4 class="publication-author">{{item.programming}}</h4>
+      <p class="publication-paragraph">{{item.description}}</p>
+      <!-- <div class="publication-link">
+        <span v-if="item.links && item.links.copyright">[copyright]</span>
+        <span v-if="item.links && item.links.pdf">[<a :href="item.links.pdf">pdf</a>]</span>
+        <span v-if="item.links && item.links.slides">[<a :href="item.links.slides">slides></a>]</span>
+        <span v-if="item.links && item.links.frontendCode">[<a :href="item.links.frontendCode">frontend-code</a>]</span>
+        <span v-if="item.links && item.links.code">[<a :href="item.links.code">code</a>]</span>
+      </div> -->
+    </div>
+    <h3 class="section-subheader" style="margin-top: 90px">Other Selected Projects</h3>
     <div v-for="(item, idx) in projectLists" class="section-block" :key="idx">
       <h4 class="publication-header">{{item.header}}</h4>
       <h4 class="publication-author">{{item.place}}</h4>
@@ -21,6 +36,26 @@
 export default {
   data() {
     return {
+      companiesList: [
+        {
+          header: 'giloo',
+          place: 'Cloud Service Orchestrating(Google Cloud Platform), System Architecting(Microservice), Full-Stack Engineering',
+          programming: 'Docker, Kubernetes, Javascript(Nuxt.js / Egg.js), Typescript, Python, MySQL, Redis',
+          description: 'giloo is a online-streaming platform focusing on documentaries. Streaming part is the most challenging service in this project, so we collaborate with engineering with other companies to construct a reliable streaming platform.',
+        },
+        {
+          header: 'Map Networked Based Social App (Ongoing Startup Project)',
+          place: 'Supervision, Project Leading, System Orchestrating(Microservice)',
+          programming: 'Docker, Kubernetes, Golang(go-micro), Javascript(Moleculer.js), MySQL, Redis, Neo4j, MongoDB, Elasticsearch',
+          description: 'Dealing with graph-based data(e.g. social network and location relation) is the most challenging part. Also, in order to construct a reliable service could overload flooding requests, we construct this system based on microservice architecture, which requires us to lots of effort on fine-tuning systems and follow development constraint.',
+        },
+        {
+          header: 'E-Commerce: MGallery',
+          place: 'Backend Developing',
+          programming: 'AWS, Javascript(Nuxt.js / Egg.js), MySQL, Redis',
+          description: 'E-Commerce: MGallery project is an E-Commerce platform, which we integrate Line(the most popular IM App in Taiwan) Chatbot / backend service to build a real-time payment system.',
+        }
+      ],
       projectLists: [
         {
           header: 'Cost-Aware Buffer Repleacement on SSD Devices',
@@ -58,6 +93,15 @@ export default {
           links: {
             code: 'https://github.com/Louis5499/DRAGON-TFJob-Launcher'
           }
+        },
+        {
+          header: 'BioPro A+ Application Page',
+          programming: 'Java(Backend), Javascript(Vue.js / Front-End)',
+          description: `BioPro A+ is an international internship program held in NTHU, and also offered exchange students program with universities in German, French, etc. During my time as the technical supervisor at Biopro organization, I'm mainly in charge of constructing application system for intended students and landing page of 2020 program.`,
+          links: {
+            frontendCode: 'https://github.com/Louis5499/biopro',
+            code: 'https://github.com/Louis5499/Biopro-Application-Server'
+          }
         }
       ]
     }
@@ -72,6 +116,10 @@ export default {
     color: #6495b5;
     font-size: 2em;
     margin-bottom: 40px;
+  }
+  .section-subheader {
+    font-size: 1.5em;
+    margin: 20px 0;
   }
   .section-block {
     .publication-header {

@@ -99,6 +99,10 @@ export default {
   }
 }
 
+a {
+  color:#6495b5;
+}
+
 .main-text {
   height: calc(100vh - var(--toolbar-height));
   margin-top: var(--toolbar-height);

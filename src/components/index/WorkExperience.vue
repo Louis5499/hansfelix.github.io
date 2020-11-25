@@ -17,6 +17,16 @@ export default {
     return {
       workExperiences: [
         {
+          companyName: '9dynamics',
+          logoImage: '/images/9d-logo.png',
+          title: 'Backend Tech Leader',
+          years: '2020/08 - Present',
+          implementation: [
+            'Supervised system design and DevOps integration of E-Commerce, Game, Social Apps projects',
+            'Integrated Scrum with our DevOps process from scratch to manage well projects and coordinate team members'
+          ]
+        },
+        {
           companyName: 'giloo',
           logoImage: '/images/giloo-logo.png',
           logoSrc: 'https://giloo.ist/',
@@ -25,16 +35,6 @@ export default {
           implementation: [
             'Designed and Implemented Multi-Provider Payment System, Authentication Service, Real-time Streaming Service',
             'Reached 99.99 % availability by reconstructing system from monolithic system to microservice with Kubernetes'
-          ]
-        },
-        {
-          companyName: '9dynamics',
-          logoImage: '/images/9d-logo.png',
-          title: 'Backend Tech Leader',
-          years: '2020/08 - Present',
-          implementation: [
-            'Supervised system design and DevOps integration of E-Commerce, Game, Social Apps projects',
-            'Integrated Scrum with our DevOps process from scratch to manage well projects and coordinate team members'
           ]
         }
       ]
