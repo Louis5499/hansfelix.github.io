@@ -37,6 +37,7 @@
         <div class="talk-block-links">
           <span v-if="item.video_links">[<a :href="item.video_links">video</a>]</span>
           <span v-if="item.slide_links">[<a :href="item.slide_links">slides</a>]</span>
+          <span v-if="item.report_links">[<a :href="item.report_links">report</a>]</span>
         </div>
       </div>
     </div>
@@ -86,7 +87,8 @@ export default {
           description: '',
           position: 'TechShare Workshops',
           location: 'Mei-Chu Hackathon',
-          slide_links: 'https://drive.google.com/file/d/1Sgr71_3_sL5ekhCJhtA7gukAWpJ5VVQT/view?usp=sharing'
+          slide_links: 'https://drive.google.com/file/d/1Sgr71_3_sL5ekhCJhtA7gukAWpJ5VVQT/view?usp=sharing',
+          report_links: 'https://medium.com/%E6%A2%85%E7%AB%B9%E9%BB%91%E5%AE%A2%E6%9D%BE/4-11-%E8%81%B7%E5%A0%B4%E8%88%87%E5%AD%B8%E7%94%9F%E7%94%9F%E6%B4%BB-%E6%B1%9F%E5%B2%B7%E9%8C%A1%E6%BC%94%E8%AC%9B%E5%9B%9E%E9%A1%A7-1264047916ec'
         }
       ]
     }

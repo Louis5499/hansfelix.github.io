@@ -7,7 +7,7 @@
       <h4 class="publication-author">In Submission</h4>
       <p class="publication-paragraph">{{publicationParagraph}}</p>
       <div class="publication-link">
-        <!-- <span>[pdf]</span> -->
+        <span>[pdf(In Reviewing)]</span>
         <span>[<a href="https://drive.google.com/file/d/1_4eSeqWWbOR0P6t5G8L0g7lO5IcjW3yI/view?usp=sharing">slides</a>]</span>
         <span>[<a href="/files/publication_poster.pdf">poster</a>]</span>
       </div>
@@ -19,7 +19,7 @@
 export default {
   data() {
     return {
-      publicationParagraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      publicationParagraph: `Since Machine Learning and Deep Learning have become increasingly popular, these two workloads also create large computational overhead to the system. If these resource-intensive workloads haven't been coordinated well with custom scheduling policy and managing mechanism, the system would waste valuable GPU resources and increase the costs. Hence, our implementation aims to optimize deep learning workloads upon the containerized system, Kubernetes. Since the container-based system is flexible and responsive, we are targeting optimizing three typical workloads(model training, model inferencing, and model developing) in the ML Pipeline. By implementing Kubernetes Custom Operator, we apply a gang-scheduling mechanism to training jobs, making training instances elastically scale with locality awareness. Also, we consolidate notebook instance on a single GPU in order to maximize GPU utilization. Finally, we integrate KOPAS, aiming to prioritize inference pods in response to climbing clients, to guarantee SLA of inference service. We successfully reduce 2.39x total execution time and speedup  3.44x Resnet-50 model training time.`
     }
   }
 }
