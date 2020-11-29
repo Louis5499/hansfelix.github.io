@@ -9,6 +9,13 @@
       </div>
     </div>
     <div class="mei-chu-bg"></div>
+    <div class="icons">
+      <img class="icon" height="45px" src="/images/hackathon-cor-logo/rect/hccg.png" />
+      <img class="icon" height="45px" src="/images/hackathon-cor-logo/sponsors/google-logo.png" />
+      <img class="icon" height="45px" src="/images/hackathon-cor-logo/sponsors/aws-logo.png" />
+      <img class="icon" height="45px" src="/images/hackathon-cor-logo/rect/logitech.png" />
+      <img class="icon" height="45px" src="/images/hackathon-cor-logo/rect/kkbox.png" />
+    </div>
     <p class="paragraph">{{mei_paragraph}}</p>
     <div class="padding"></div>
     <div class="block-header">
@@ -20,7 +27,7 @@
     </div>
     <div class="hackathon-junior-bg"></div>
     <p class="paragraph">{{junior_paragraph}}</p>
-    <h3 class="talk-header">Talks</h3>
+    <h3 class="talk-header">Talks / Lectures</h3>
     <div class="talk-blocks">
       <div v-for="(item, idx) in talk_list" class="talk-block" :key="idx">
         <div class="talk-block-headerbar">
@@ -40,10 +47,8 @@
 export default {
   data() {
     return {
-      mei_paragraph: `During my presidency, I reformed the organization from corporation-oriented to a more socially-minded focus. As the result,
-      we start to hold six CS+X workshops, including on the topics of education, startup, media, city governence, etc. for both CS major and non-CS major students.\nFurthermore, in our final Hackathon festival, we collaborated with school, Hsinchu city government, and big techs such as Google, Amazon, and Logitech to give students opportunities to gain practical experience in solving real-life issues.
-      Each collaborated corperation would bring up some real-life problems they enountered, and students need to choose their favorite company and topics they want to challenge. Within two days, each team need to proposed their idea, implement minimum viable product, and finally present their result.`,
-      junior_paragraph: `The first Hackathon event in Taiwan targeting at high school students. We collaborated with Hackathon Taiwan in Taipei to found this new organization. As the founder and President of this organization, I negotiated with corporations and persuaded our principal sponsor to supply us with additional funding and resources. During the Hackathon festival, we conducted a series of workshops, ranging from Arduino, Quadrotor Aircraft to 3D Printer, and succesfully collaborated with MakeSchool from Silicon Valley to co-hold next Hackathon Event. `,
+      mei_paragraph: `During my presidency, I reformed the organization from corporation-oriented to a more socially-minded focus. As a result, we start to hold six CS+X workshops, including on the topics of education, startup, media, city governance, etc., for both CS major and non-CS major students. Furthermore, in our final Hackathon festival, we collaborated with the school, Hsinchu city government, and big techs such as Google, Amazon, and Logitech to give students opportunities to gain practical experience in solving real-life issues. Each collaborated corporation would bring up some real-life problems they encountered, and students need to choose their favorite company and topics they want to challenge. Within two days, each team needs to propose their idea, implement a minimum viable product, and finally present their result.`,
+      junior_paragraph: `Hackathon Taiwan Junior is the first Hackathon event in Taiwan targeting high school students. We collaborated with Hackathon Taiwan in Taipei to found this new organization. As the founder and President of this organization, I negotiated with corporations and persuaded our principal sponsor to supply us with additional funding and resources. During the Hackathon festival, we conducted a series of workshops, ranging from Arduino, Quadrotor Aircraft to 3D Printer, and successfully collaborated with MakeSchool from Silicon Valley to co-hold the next Hackathon Event.`,
       talk_list: [
         {
           name: 'TED Talk',
@@ -100,6 +105,15 @@ export default {
     color: #6495b5;
     font-size: 2em;
     margin-bottom: 40px;
+  }
+  .icons {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin: 0 15px;
+    }
   }
   .block-header {
     display: flex;

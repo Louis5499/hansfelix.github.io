@@ -7,8 +7,8 @@
       <h4 class="publication-author">In Submission</h4>
       <p class="publication-paragraph">{{publicationParagraph}}</p>
       <div class="publication-link">
-        <span>[pdf]</span>
-        <span>[slides]</span>
+        <!-- <span>[pdf]</span> -->
+        <span>[<a href="https://drive.google.com/file/d/1_4eSeqWWbOR0P6t5G8L0g7lO5IcjW3yI/view?usp=sharing">slides</a>]</span>
         <span>[<a href="/files/publication_poster.pdf">poster</a>]</span>
       </div>
     </div>

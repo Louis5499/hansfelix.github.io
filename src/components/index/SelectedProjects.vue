@@ -41,19 +41,19 @@ export default {
           header: 'giloo',
           place: 'Cloud Service Orchestrating(Google Cloud Platform), System Architecting(Microservice), Full-Stack Engineering',
           programming: 'Docker, Kubernetes, Javascript(Nuxt.js / Egg.js), Typescript, Python, MySQL, Redis',
-          description: 'giloo is a online-streaming platform focusing on documentaries. Streaming part is the most challenging service in this project, so we collaborate with engineering with other companies to construct a reliable streaming platform.',
+          description: 'giloo is an online-streaming platform focusing on documentaries. The streaming part is the most challenging service in this project, so we collaborate with engineers with other companies to construct a reliable streaming platform.',
         },
         {
           header: 'Map Networked Based Social App (Ongoing Startup Project)',
           place: 'Supervision, Project Leading, System Orchestrating(Microservice)',
           programming: 'Docker, Kubernetes, Golang(go-micro), Javascript(Moleculer.js), MySQL, Redis, Neo4j, MongoDB, Elasticsearch',
-          description: 'Dealing with graph-based data(e.g. social network and location relation) is the most challenging part. Also, in order to construct a reliable service could overload flooding requests, we construct this system based on microservice architecture, which requires us to lots of effort on fine-tuning systems and follow development constraint.',
+          description: 'Dealing with graph-based data(e.g., social network and location relation) is the most challenging part. Also, in order to construct a reliable service could overload flooding requests, we build this system based on microservice architecture, which requires us to lots of effort on fine-tuning systems and follows development constraint.',
         },
         {
           header: 'E-Commerce: MGallery',
           place: 'Backend Developing',
           programming: 'AWS, Javascript(Nuxt.js / Egg.js), MySQL, Redis',
-          description: 'E-Commerce: MGallery project is an E-Commerce platform, which we integrate Line(the most popular IM App in Taiwan) Chatbot / backend service to build a real-time payment system.',
+          description: 'E-Commerce: MGallery project is an E-Commerce platform, in which we integrate Line(the most popular IM app in Taiwan) Chatbot / backend service to build a real-time payment system.',
         }
       ],
       projectLists: [
@@ -61,7 +61,7 @@ export default {
           header: 'Cost-Aware Buffer Repleacement on SSD Devices',
           place: '1st prize at Final Project in Intro to Database Systems',
           programming: 'Java (Object-Oriented Programming)',
-          description: 'We tried to minimize the missing rate, decrease the I/O latency and prevent redundancy by employing the algorithm with recency and frequency awareness. Also, we integrate Calvin, the Fast Distributed Transactions for Partitioned Database Systems, into our database system. It requires us to study the paper, tracing thousands of codes, figuring out how to reorganize the original transaction, communication, and buffer management system, and finally implement thousand lines of codes to fulfill the requirement. As a team leader, I mainly in charge of system design and implementation. This project was awarded the first prize in the final project competition.',
+          description: 'We tried to minimize the missing rate, decrease the I/O latency and prevent redundancy by employing the algorithm with recency and frequency awareness. Also, we integrate Calvin, the Fast Distributed Transactions for Partitioned Database Systems, into our database system. It requires us to study the paper, tracing thousands of codes, figuring out how to reorganize the original transaction, communication, and buffer management system, and finally implement a thousand lines of code to fulfill the requirement. As a team leader, I mainly in charge of system design and implementation. This project was awarded the first prize in the final project competition.',
           links: {
             copyright: 'yes',
             pdf: '/files/database-pdf.pdf'
@@ -80,7 +80,7 @@ export default {
         {
           header: 'Keyword Extraction and Analysis on Social Media',
           programming: 'NLP (Word Breaking, Keyword Extraction - TF-IDF), Python, Javascript(Vue.js)',
-          description: `By analyzing the keywords of posts on social media (Facebook, Dcard in Taiwan), we're able to predict the public opinion toward a specific social issue. In this project, we employ the Word Breaking(CKIP-Tagger) & Keyword Extraction(TF-IDF & PF) to analyze the article, and built a website to real-time connect social media for querying.`,
+          description: `By analyzing the keywords of posts on social media (Facebook, Dcard in Taiwan), we're able to predict the public opinion toward a specific social issue. In this project, we employ the Word Breaking(CKIP-Tagger) & Keyword Extraction(TF-IDF & PF) to analyze the article, and build a website to real-time connect social media for querying.`,
           links: {
             frontendCode: 'https://github.com/Louis5499/nlp-final-web',
             code: 'https://github.com/Louis5499/nlp-final-server'
@@ -89,7 +89,7 @@ export default {
         {
           header: 'ML Pipeline Integration with Dragon on Kubeflow (Kubernetes)',
           programming: 'Python, Golang',
-          description: `In order to build an End-to-End ML Workflow that compatible with our DRAGON(Enhanced-Dragon) scheduler, I customized the Kubeflow Component and Kubeflow Pipeline and built a End-to-End template on Kubeflow.`,
+          description: `In order to build an End-to-End ML Workflow that compatible with our DRAGON(Enhanced-Dragon) scheduler, I customized the Kubeflow Component and Kubeflow Pipeline and built an End-to-End template on Kubeflow.`,
           links: {
             code: 'https://github.com/Louis5499/DRAGON-TFJob-Launcher'
           }
@@ -97,7 +97,7 @@ export default {
         {
           header: 'BioPro A+ Application Page',
           programming: 'Java(Backend), Javascript(Vue.js / Front-End)',
-          description: `BioPro A+ is an international internship program held in NTHU, and also offered exchange students program with universities in German, French, etc. During my time as the technical supervisor at Biopro organization, I'm mainly in charge of constructing application system for intended students and landing page of 2020 program.`,
+          description: `BioPro A+ is an international internship program held in NTHU and offered an exchange student program with universities in German, French, etc. During my time as the technical supervisor at Biopro organization, I'm mainly in charge of constructing an application system for intended students and the landing page of the 2020 program.`,
           links: {
             frontendCode: 'https://github.com/Louis5499/biopro',
             code: 'https://github.com/Louis5499/Biopro-Application-Server'
