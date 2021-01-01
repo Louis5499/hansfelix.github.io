@@ -2,7 +2,10 @@
   <section class="workexperience-sector" id="workexperience-sector">
     <h3 class="section-header">Work Experience</h3>
     <div v-for="(work, idx) in workExperiences" class="section-block" :key="idx">
-      <a v-if="work.logoImage" :href="work.logoSrc"><img :src="work.logoImage" width="70px"/></a>
+      <a v-if="work.logoImage" :href="work.logoSrc">
+        <img v-if="work.companyName === '9dynamics'" src="~/assets/icons/9d-logo.png" width="70px"/>
+        <img v-if="work.companyName === 'giloo'" src="~/assets/icons/giloo-logo.png" width="70px"/>
+      </a>
       <h4 class="publication-header">{{work.companyName}}</h4>
       <h4 class="publication-author">{{work.title}}</h4>
       <h4 class="publication-author">{{work.years}}</h4>
@@ -18,7 +21,7 @@ export default {
       workExperiences: [
         {
           companyName: '9dynamics',
-          logoImage: '/images/9d-logo.png',
+          logoImage: '~/assets/icons/9d-logo.png',
           title: 'Backend Tech Leader',
           years: '2020/08 - Present',
           implementation: [
@@ -28,7 +31,7 @@ export default {
         },
         {
           companyName: 'giloo',
-          logoImage: '/images/giloo-logo.png',
+          logoImage: '~/assets/icons/giloo-logo.png',
           logoSrc: 'https://giloo.ist/',
           title: 'System Architect & SRE',
           years: '2017/07 - 2020/08',

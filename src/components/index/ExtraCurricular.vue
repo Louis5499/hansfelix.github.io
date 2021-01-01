@@ -2,7 +2,7 @@
   <section class="extra-curricular" id="extra-curricular">
     <h3 class="section-header">Extracurricular Activity</h3>
     <div class="block-header">
-      <a href="https://2019.meichuhackathon.org/"><img class="activity-logo" src="/images/mei-chu-hackathon-logo.png" width="70px"/></a>
+      <a href="https://2019.meichuhackathon.org/"><img class="activity-logo" src="~/assets/icons/mei-chu-hackathon-logo.png" width="70px"/></a>
       <div class="block-words">
         <h3 class="section-subheader" style="color: #404040;">7th Mei-Chu Hackathon</h3>
         <h3 class="section-subheader">President</h3>
@@ -19,7 +19,7 @@
     <p class="paragraph">{{mei_paragraph}}</p>
     <div class="padding"></div>
     <div class="block-header">
-      <a href="https://www.facebook.com/hackathontaiwanjunior"><img class="activity-logo"  style="border-radius: 50%" src="/images/hackathon-tw-junior-logo.png" width="70px"/></a>
+      <a href="https://www.facebook.com/hackathontaiwanjunior"><img class="activity-logo"  style="border-radius: 50%" src="~/assets/icons/hackathon-tw-junior-logo.png" width="70px"/></a>
       <div class="block-words">
         <h3 class="section-subheader" style="color: #404040;">Hackathon Taiwan Junior</h3>
         <h3 class="section-subheader">Founder & President</h3>
@@ -182,14 +182,14 @@ export default {
     margin-top: 25px;
   }
   .mei-chu-bg {
-    background-image: url('/images/mei-chu-all.jpg');
+    background-image: url('~assets/mei-chu-all.jpg');
     width: 100%;
     height: 300px;
     background-position: center;
     background-size: cover;
   }
   .hackathon-junior-bg {
-    background-image: url('/images/hackathon-junior.jpg');
+    background-image: url('~assets/hackathon-junior.jpg');
     width: 100%;
     height: 300px;
     background-position: center;

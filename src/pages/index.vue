@@ -28,7 +28,7 @@
         </section>
       </div>
       <div class="about-me__photo">
-        <img src="/images/min_chi_compress.png" alt="Hans Felix" />
+        <img src="~/assets/icons/min_chi_compress.png" alt="Hans Felix" />
       </div>
     </div>
 

@@ -1,7 +1,7 @@
 <template>
   <section class="ted-youtube" id="ted-youtube">
     <div class="text-block">
-      <img src="/images/ted-youth-logo.png" width="150px">
+      <img src="~/assets/icons/ted-youth-logo.png" width="150px">
       <div class="description">
         <p>at MingdaoHS</p>
         <p>2020 / 09 / 11</p>
