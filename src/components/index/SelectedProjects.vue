@@ -78,6 +78,15 @@ export default {
           }
         },
         {
+          header: 'Parallelize COVID-19 Infectious Simulation with CUDA and OpenMP',
+          programming: 'C++, OpenMP(Multi-threading), CUDA(GPU)',
+          description: 'In this project, we aim to speedup infectious simulation of the SIR Model by using parallelism skills, including OpenMP for multi-threading and GPU for CUDA programming. We proposed two solutions to efficiently accelerate the simulation process: blocked-version for multi-threading and distance-based for CUDA. Finally, we successfully speedup 6.39x with CUDA version & 2.05x with OpenMP version.',
+          links: {
+            pdf: 'https://github.com/Louis5499/Parallelize-COVID19-Infection-Simulation/blob/master/PP20-Final.pdf',
+            code: 'https://github.com/Louis5499/Parallelize-COVID19-Infection-Simulation'
+          }
+        },
+        {
           header: 'Keyword Extraction and Analysis on Social Media',
           programming: 'NLP (Word Breaking, Keyword Extraction - TF-IDF), Python, Javascript(Vue.js)',
           description: `By analyzing the keywords of posts on social media (Facebook, Dcard in Taiwan), we're able to predict the public opinion toward a specific social issue. In this project, we employ the Word Breaking(CKIP-Tagger) & Keyword Extraction(TF-IDF & PF) to analyze the article, and build a website to real-time connect social media for querying.`,

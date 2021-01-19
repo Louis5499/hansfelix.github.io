@@ -1,8 +1,9 @@
 <template>
-  <svg class="h-icon" :class="classIcon" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height">
-    <title v-if="title">{{ title }}</title>
-    <g v-html="iconPath" :fill="color"></g>
-  </svg>
+  <img :src="iconPath" :width="width" :height="height" style="opacity: 50%"/>
+  <!-- <svg class="h-icon" :class="classIcon" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height">
+    <title v-if="title">{{ title }}</title> -->
+    <!-- <g v-html="iconPath" :fill="color"></g> -->
+  <!-- </svg> -->
 </template>
 
 <script>
