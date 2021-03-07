@@ -5,6 +5,7 @@
       <a v-if="work.logoImage" :href="work.logoSrc">
         <img v-if="work.companyName === '9dynamics'" src="~/assets/icons/9d-logo.png" width="70px"/>
         <img v-if="work.companyName === 'giloo'" src="~/assets/icons/giloo-logo.png" width="70px"/>
+        <img v-if="work.companyName === 'Compulsory Military Service'" src="~/assets/icons/roca.png" width="70px"/>
       </a>
       <h4 class="publication-header">{{work.companyName}}</h4>
       <h4 class="publication-author">{{work.title}}</h4>
@@ -20,10 +21,19 @@ export default {
     return {
       workExperiences: [
         {
+          companyName: 'Compulsory Military Service',
+          logoImage: '~/assets/icons/roca.png',
+          title: 'Riflemen',
+          years: '2021/01 - Present',
+          implementation: [
+            'Fulfilling compulsory military service for 4 months as a rifleman at National Army 203 brigade'
+          ]
+        },
+        {
           companyName: '9dynamics',
           logoImage: '~/assets/icons/9d-logo.png',
           title: 'Backend Tech Leader',
-          years: '2020/08 - Present',
+          years: '2020/08 - 2020/12',
           implementation: [
             'Supervised system design and DevOps integration of E-Commerce, Game, Social Apps projects',
             'Integrated Scrum with our DevOps process from scratch to manage well projects and coordinate team members'

@@ -21,9 +21,9 @@
         <p style="margin-top: 15px" class="biography-highlight">Education</p>
         <section class="about-me__tech">
           <div>National Tsing Hua University (NTHU)</div>
-          <div>B.S. in Computer Science, 2021</div>
-          <div>Overall GPA: 3.91 / 4.30</div>
-          <div>CS Major GPA: 4.00 / 4.30</div>
+          <div>B.S. in Computer Science</div>
+          <div>Overall GPA: 3.95 / 4.30</div>
+          <div>CS Major GPA: 4.05 / 4.30</div>
           <div class="special-label"><b>NTHU CS Outstanding Academic Achievement Award</b></div>
         </section>
       </div>
