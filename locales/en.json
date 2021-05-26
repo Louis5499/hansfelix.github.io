@@ -11,6 +11,6 @@
     "overline": "Hi! My name is",
     "desciption": "<p>MEng. EECS at UC Berkeley</p><p>B.S. CS Student at NTHU</p><p>System Architect & Backend Tech Leader at 9dynamics</p><p>President of 7th Mei-Chu Hackathon</p>",
     "aboutMe": "Biography",
-    "aboutMeText": "<p> Hi! I'm pursuing master degree at UC Berkeley Electrical Engineering & Computer Sciences (EECS), and I also acquired major GPA 4.05/4.3 in my college CS degree. </p><p> During my undergraduate studies, I worked with Prof. Jerry Chou and published a paper aiming the optimize machine learning workloads with a set of custom operators, which awarded the Best Paper in CLOSER 2021.</p><p> These years I also participated in start-ups industries, giloo and 9dynamics, as a system architect and backend tech leader, and my priority is to employ microservice architecture with Kubernetes to construct reliable and flexible service. </p>"
+    "aboutMeText": "<p> Hi! I'm pursuing master degree at UC Berkeley Electrical Engineering & Computer Sciences (EECS), and I also acquired major GPA 4.05/4.3 in my college CS degree. </p><p> During my undergraduate studies, I worked with Prof. Jerry Chou and published a paper aiming to optimize machine learning workloads with a set of custom operators, which awarded the Best Paper in CLOSER 2021.</p><p> These years I also participated in start-ups industries, giloo and 9dynamics, as a system architect and backend tech leader, and my priority is to employ microservice architecture with Kubernetes to construct reliable and flexible service. </p>"
   }
 }
