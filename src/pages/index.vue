@@ -3,7 +3,7 @@
     <div class="main-text">
       <div class="main-text__overline">{{ $t("index.overline") }}</div>
       <h1 class="main-text__title">Min-Chi Chiang</h1>
-      <div style="margin-bottom: 20px" class="main-text__description">louisby0123 [at] gmail.com</div>
+      <div style="margin-bottom: 20px" class="main-text__description">mencher@berkerley.edu</div>
       <div class="main-text__description" v-html="$t('index.desciption')"></div>
     </div>
 
@@ -18,23 +18,34 @@
           <div>MLSys</div>
           <div>DevOps</div>
         </section>
-        <p style="margin-top: 15px" class="biography-highlight">Education</p>
-        <section class="about-me__tech">
+        <div style="margin-top: 20px">
+          <span>[<a href="/files/cv_0526.pdf">CV</a>]</span>
+          <span>[<a href="https://www.linkedin.com/in/mencher-chiang">Linkedin</a>]</span>
+          <span>[<a href="https://github.com/Louis5499">Github</a>]</span>
+        </div>
+        <!-- <p style="margin-top: 15px" class="biography-highlight">Education</p> -->
+        <!-- <section class="about-me__tech">
+          <div>University of California, Berkeley</div>
+          <div>Master of Engineering in EECS</div>
+          <div class="special-label"><b>UC Berkeley College of Engineering Fung Excellence Scholarship</b></div>
+        </section> -->
+        <!-- <section class="about-me__tech" style="margin-top: 20px">
           <div>National Tsing Hua University (NTHU)</div>
           <div>B.S. in Computer Science</div>
           <div>Overall GPA: 3.95 / 4.30</div>
           <div>CS Major GPA: 4.05 / 4.30</div>
           <div class="special-label"><b>NTHU CS Outstanding Academic Achievement Award</b></div>
-        </section>
+        </section> -->
       </div>
       <div class="about-me__photo">
         <img src="~/assets/icons/min_chi_compress.png" alt="Hans Felix" />
       </div>
     </div>
 
-    <TedYoutube />
-    <PublicationSector />
+    <Education />
     <WorkExperience />
+    <PublicationSector />
+    <!-- <TedYoutube /> -->
     <ExtraCurricular />
     <SelectedProjects />
     <IndexContact />
@@ -44,7 +55,7 @@
     </div>
 
     <div class="social">
-      <a class="social__item" href="https://www.linkedin.com/in/mencher-min-chi-chiang-846414187/" target="_blank">
+      <a class="social__item" href="https:/www.linkedin.com/in/mencher-chiang" target="_blank">
         <h-icon name="linkedin" width="20" height="20"></h-icon>
       </a>
       <!-- <a class="social__item" href="https://twitter.com/hansfelixramos" target="_blank">
@@ -74,6 +85,7 @@ import PublicationSector from "@/components/index/PublicationSector";
 import WorkExperience from "@/components/index/WorkExperience";
 import ExtraCurricular from "@/components/index/ExtraCurricular";
 import SelectedProjects from "@/components/index/SelectedProjects";
+import Education from '@/components/index/Education.vue';
 
 export default {
   components: {
@@ -82,7 +94,8 @@ export default {
     PublicationSector,
     WorkExperience,
     ExtraCurricular,
-    SelectedProjects
+    SelectedProjects,
+    Education
   }
 };
 </script>
@@ -131,7 +144,7 @@ a {
 }
 
 .about-me {
-  min-height: 100vh;
+  min-height: 50vh;
   display: grid;
   grid-template-columns: 60% 40%;
 

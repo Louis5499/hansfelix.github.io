@@ -1,6 +1,8 @@
 <template>
   <section class="extra-curricular" id="extra-curricular">
+    <TedYoutube />
     <h3 class="section-header">Extracurricular Activity</h3>
+    <!-- <div class="padding"></div> -->
     <div class="block-header">
       <a href="https://2019.meichuhackathon.org/"><img class="activity-logo" src="~/assets/icons/mei-chu-hackathon-logo.png" width="70px"/></a>
       <div class="block-words">
@@ -45,7 +47,11 @@
 </template>
 
 <script>
+import TedYoutube from "@/components/index/TedYoutube";
 export default {
+  components: {
+    TedYoutube
+  },
   data() {
     return {
       mei_paragraph: `During my presidency, I reformed the organization from corporation-oriented to a more socially-minded focus. As a result, we start to hold six CS+X workshops, including on the topics of education, startup, media, city governance, etc., for both CS major and non-CS major students. Furthermore, in our final Hackathon festival, we collaborated with the school, Hsinchu city government, and big techs such as Google, Amazon, and Logitech to give students opportunities to gain practical experience in solving real-life issues. Each collaborated corporation would bring up some real-life problems they encountered, and students need to choose their favorite company and topics they want to challenge. Within two days, each team needs to propose their idea, implement a minimum viable product, and finally present their result.`,
@@ -98,7 +104,7 @@ export default {
 
 <style lang="scss" scoped>
 .extra-curricular {
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
   .padding {
     height: 100px;
     width: 100%;
@@ -106,7 +112,7 @@ export default {
   .section-header {
     color: #6495b5;
     font-size: 2em;
-    margin-bottom: 40px;
+    margin: 100px 0 20px 0;
   }
   .icons {
     display: flex;

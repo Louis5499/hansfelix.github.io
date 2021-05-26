@@ -10,7 +10,10 @@
       <h4 class="publication-header">{{work.companyName}}</h4>
       <h4 class="publication-author">{{work.title}}</h4>
       <h4 class="publication-author">{{work.years}}</h4>
-      <p v-for="(specificItem, itemIdx) in work.implementation" class="publication-paragraph" :key="itemIdx">{{'-  ' + specificItem}}</p>
+      <p v-for="(specificItem, itemIdx) in work.implementation" class="publication-paragraph" :key="itemIdx">
+        <span class="dot-in-pulication">•  </span>
+        <span class="para-in-publication">{{specificItem}}</span>
+      </p>
     </div>
   </section>
 </template>
@@ -20,22 +23,23 @@ export default {
   data() {
     return {
       workExperiences: [
-        {
-          companyName: 'Compulsory Military Service',
-          logoImage: '~/assets/icons/roca.png',
-          title: 'Riflemen',
-          years: '2021/01 - Present',
-          implementation: [
-            'Fulfilling compulsory military service for 4 months as a rifleman at National Army 203 brigade'
-          ]
-        },
+        // {
+        //   companyName: 'Compulsory Military Service',
+        //   logoImage: '~/assets/icons/roca.png',
+        //   title: 'Riflemen',
+        //   years: '2021/01 - Present',
+        //   implementation: [
+        //     'Fulfilling compulsory military service for 4 months as a rifleman at National Army 203 brigade'
+        //   ]
+        // },
         {
           companyName: '9dynamics',
           logoImage: '~/assets/icons/9d-logo.png',
           title: 'Backend Tech Leader',
           years: '2020/08 - 2020/12',
           implementation: [
-            'Supervised system design and DevOps integration of E-Commerce, Game, Social Apps projects',
+            'Supervised system design (microservice), networking, database selection and integration of Social Apps',
+            'Built automated DevOps mechanism such as CI/CD, monitoring on E-Commerce, Game, Social Apps projects',
             'Integrated Scrum with our DevOps process from scratch to manage well projects and coordinate team members'
           ]
         },
@@ -43,11 +47,14 @@ export default {
           companyName: 'giloo',
           logoImage: '~/assets/icons/giloo-logo.png',
           logoSrc: 'https://giloo.ist/',
-          title: 'System Architect & SRE',
+          title: 'System Architect & Software Developer',
           years: '2017/07 - 2020/08',
           implementation: [
-            'Designed and Implemented Multi-Provider Payment System, Authentication Service, Real-time Streaming Service',
-            'Reached 99.99 % availability by reconstructing system from monolithic system to microservice with Kubernetes'
+            'Oversaw & led the team to reconstruct backend service from monolithic system to microservice with Kubernetes',
+            'Reached 99.99 % availability by integrating auto-healing mechanism with automated monitoring system',
+            'Designed and implemented real-time Multi-Provider Payment System that supports Google Pay, Apple Pay, credit card, voucher by integrating with Google, Apple and Stripe APIs and PostgreSQL & Redis Databases',
+            'Implemented Role-Permission Authorization Systems supporting third-party OAuth such as Google, Apple, Facebook by using Json Web Token(JWT) and Redis Database',
+            'Collaborated with KKStream & Bitmovin to develop online streaming platform with Typescript'
           ]
         }
       ]
@@ -58,7 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 .workexperience-sector {
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
   .section-header {
     color: #6495b5;
     font-size: 2em;
@@ -79,7 +86,18 @@ export default {
       font-weight: 600;
     }
     .publication-paragraph {
-      margin: 10px 0;
+      margin: 5px 0;
+      display: flex;
+      flex-direction: row;
+      .dot-in-pulication {
+        width: 10px;
+        margin-right: 10px;
+        display: block;
+      }
+      .para-in-publication {
+        width: calc(100% - 10px);
+
+      }
     }
   }
 }

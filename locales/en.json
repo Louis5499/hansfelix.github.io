@@ -9,7 +9,7 @@
   },
   "index": {
     "overline": "Hi! My name is",
-    "desciption": "<p>CS B.S. Student at NTHU</p><p>System Architect & Backend Tech Leader at 9dynamics</p><p>President of 7th Mei-Chu Hackathon</p>",
+    "desciption": "<p>MEng. EECS at UC Berkeley</p><p>B.S. CS Student at NTHU</p><p>System Architect & Backend Tech Leader at 9dynamics</p><p>President of 7th Mei-Chu Hackathon</p>",
     "aboutMe": "Biography",
     "aboutMeText": "<p> Hi! I'm the senior student at NTHU CS. </p><p> During my undergraduate studies, I worked with Prof. Jerry Chou at Nation Tsing Hua University at LSA-Lab</p><p> These years I also participated in start-ups industries, giloo and 9dynamics, as a system architect and tech-leader, and my priority is to employ microservice architecture with Kubernetes to construct reliable and flexible service. </p>"
   }
