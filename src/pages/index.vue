@@ -19,7 +19,7 @@
           <div>DevOps</div>
         </section>
         <div style="margin-top: 20px">
-          <span>[<a href="/files/cv_0526.pdf">CV</a>]</span>
+          <span>[<a href="/files/cv_0526.pdf">Resume</a>]</span>
           <span>[<a href="https://www.linkedin.com/in/mencher-chiang">Linkedin</a>]</span>
           <span>[<a href="https://github.com/Louis5499">Github</a>]</span>
         </div>
@@ -144,6 +144,7 @@ a {
 }
 
 .about-me {
+  padding: 130px 0 0 0;
   min-height: 50vh;
   display: grid;
   grid-template-columns: 60% 40%;

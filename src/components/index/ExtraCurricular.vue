@@ -104,7 +104,7 @@ export default {
 
 <style lang="scss" scoped>
 .extra-curricular {
-  padding: 50px 0 0 0;
+  padding: 130px 0 0 0;
   .padding {
     height: 100px;
     width: 100%;

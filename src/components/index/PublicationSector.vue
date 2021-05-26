@@ -31,7 +31,7 @@ export default {
         'Speedup 3.44 times of Resnet-50 model training time by employing gang scheduling with locality awareness',
         'Keep 74ms of inference response time by designing inference auto-scaling controller for priority scheduling',
         'Fully-utilized GPU resources by utilizing CUDA library hook & API blocking to provide fractional GPU allocation and time-share fairness scheduling',
-        'Awarded the best paper in the 11th International Conference on Cloud Computing and Services Science'
+        'Awarded the Best Paper in the 11th International Conference on Cloud Computing and Services Science'
       ]
     }
   }
@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .publication-sector {
-  padding: 50px 0 200px 0;
+  padding: 130px 0 200px 0;
   .section-header {
     color: #6495b5;
     font-size: 2em;

@@ -65,7 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 .workexperience-sector {
-  padding: 50px 0 0 0;
+  padding: 130px 0 0 0;
   .section-header {
     color: #6495b5;
     font-size: 2em;
