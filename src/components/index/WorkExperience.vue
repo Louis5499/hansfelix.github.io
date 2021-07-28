@@ -35,25 +35,26 @@ export default {
         {
           companyName: '9dynamics',
           logoImage: '~/assets/icons/9d-logo.png',
-          title: 'Backend Tech Leader',
-          years: '2020/08 - 2020/12',
+          title: 'Backend Tech Lead',
+          years: '2020/01 - 2020/12',
           implementation: [
-            'Supervised system design (microservice), networking, database selection and integration of Social Apps',
-            'Built automated DevOps mechanism such as CI/CD, monitoring on E-Commerce, Game, Social Apps projects',
-            'Integrated Scrum with our DevOps process from scratch to manage well projects and coordinate team members'
+            'Led 5 people team to develop 60k concurrent instant messaging systems by employing NATS Streaming, Websocket, gRPC, MongoDB and Redis with Kubernetes',
+            'Supervised microservice system design, service mesh networking, SQL & non-SQL DB integration on Social App',
+            'Built 100% automated DevOps mechanism such as CI/CD, monitoring on E-Commerce, Social App projects',
+            'Integrated Scrum with our DevOps process from scratch to well manage with 10+ people developers team & PM'
           ]
         },
         {
           companyName: 'giloo',
           logoImage: '~/assets/icons/giloo-logo.png',
           logoSrc: 'https://giloo.ist/',
-          title: 'System Architect & Software Developer',
-          years: '2017/07 - 2020/08',
+          title: 'System Architect & Software Engineer',
+          years: '2017/07 - 2020/01',
           implementation: [
-            'Oversaw & led the team to reconstruct backend service from monolithic system to microservice with Kubernetes',
-            'Reached 99.99 % availability by integrating auto-healing mechanism with automated monitoring system',
-            'Designed and implemented real-time Multi-Provider Payment System that supports Google Pay, Apple Pay, credit card, voucher by integrating with Google, Apple and Stripe APIs and PostgreSQL & Redis Databases',
-            'Implemented Role-Permission Authorization Systems supporting third-party OAuth such as Google, Apple, Facebook by using Json Web Token(JWT) and Redis Database',
+            'Oversaw backend infrastructure reconstruction from monolithic system to microservice with Kubernetes & Istio',
+            'Reached 99.99 % availability by integrating monitoring systems & fault tolerance mechanism with Kubernetes',
+            'Designed and implemented real-time multi-provider payment system that supports Google Pay, Apple Pay, credit card, voucher by integrating with Google, Apple and Stripe APIs and PostgreSQL & Redis Databases',
+            'Implemented role-permission authorization systems supporting third-party OAuth such as Google, Apple, Facebook by using Json Web Token(JWT) and Redis Database',
             'Collaborated with KKStream & Bitmovin to develop online streaming platform with Typescript'
           ]
         }
